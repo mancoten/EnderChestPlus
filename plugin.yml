@@ -1,0 +1,29 @@
+main: ecp.npuclear.EnderChestPlus
+version: 1.0.0
+name: EnderChestPlus
+author: NpuclearDev
+api-version: 1.13
+
+commands:
+  enderchestplus:
+    description: "Main command for EnderChestPlus"
+    usage: "/ecp <subcommand>"
+    aliases: [ecp]
+  ec:
+    description: "Opens your Ender Chest"
+    usage: "/ec"
+    aliases: [ enderchest ]
+    permission: enderchestplus.view
+
+permissions:
+  enderchestplus.view:
+    description: "Allows opening other players' Ender Chests"
+    default: op
+
+  enderchestplus.additem:
+    description: "Allows adding items to an Ender Chest"
+    default: op
+
+  enderchestplus.deletechest:
+    description: "Allows clearing a player's Ender Chest"
+    default: op

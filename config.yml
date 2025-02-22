@@ -1,0 +1,16 @@
+#
+#___________           .___            _________ .__                     __ __________.__
+#\_   _____/ ____    __| _/___________ \_   ___ \|  |__   ____   _______/  |\______   \  |  __ __  ______
+# |    __)_ /    \  / __ |/ __ \_  __ \/    \  \/|  |  \_/ __ \ /  ___/\   __\     ___/  | |  |  \/  ___/
+# |        \   |  \/ /_/ \  ___/|  | \/\     \___|   Y  \  ___/ \___ \  |  | |    |   |  |_|  |  /\___ \
+#/_______  /___|  /\____ |\___  >__|    \______  /___|  /\___  >____  > |__| |____|   |____/____//____  >
+#        \/     \/      \/    \/               \/     \/     \/     \/                                \/
+#
+# This config.yml is only for the /ec command if you want to additems or delete ender chests...
+# use the ingame command /ecp or /enderchestplus
+#
+# Changes require server restart in next updates is going to be an /ecp reload
+
+prefix: "&7[&5&lENDERCHEST&d&l+&7]"
+open-message: "&aYou have opened your Ender Chest!"
+close-message: "&cYou have closed your Ender Chest!"
